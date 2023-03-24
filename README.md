@@ -18,4 +18,4 @@ CMOS, or "Complementary Metal Oxide Semiconductor" is a "tiny" "cheap-to-replace
 
 ### What does it do?
 
-This program just, once in every 10 minutes, try to connect to NTP server @ `time.windows.com` and update Windows time using `win32api` found in `pywin32`.
+This program runs without console, and once in every 10 minutes, try to connect to NTP server @ `time.windows.com` and update Windows time using `win32api` found in `pywin32`.
